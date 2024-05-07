@@ -11,12 +11,12 @@ body{
 }
 .home{
     height: 100vh;
-    background: url(pics\ image.jpg) no-repeat;
+    /* background: url(pics\ image.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex none;
     align-items: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
 }
 .navbar{
     float: right;
@@ -37,14 +37,16 @@ body{
     text-align: center;
 }
 .home-content{
-    max-width: 600;
+    /* max-width: 600; */
     color: white;
+    display: flex;
 }
+
 .home-content h1{
     font-size: 50px;
     font-weight: 600;
 }
-.btn-box a{
+.a-link{
     display: inline;
     justify-content: center;
     align-items: center;
@@ -75,8 +77,14 @@ body{
     
 }
 .imagedp{
-    margin: 0 0 400px 270px;
+    /* margin: 0 0 400px 270px; */
     background-color: steelblue;
+    float: right;
+}
 
+.img{
+    height: 400px;
+    width: 400px;
+    margin: -200px 0 0 38rem;
 }
 
